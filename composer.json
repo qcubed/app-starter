@@ -26,9 +26,7 @@
     "qcubed/composer": "dev-master"
   },
   "require-dev": {
-    "lastcraft/simpletest": "dev-master"
-  },
-  "suggest": {
+    "lastcraft/simpletest": "dev-master",
     "ezyang/htmlpurifier": "dev-master"
   },
   "minimum-stability":"dev"
