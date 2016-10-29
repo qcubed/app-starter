@@ -1,15 +1,4 @@
 {
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/qcubed"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/composer"
-    }
-
-  ],
   "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
   "keywords": ["qcubed", "framework", "project template"],
@@ -22,7 +11,7 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "qcubed/qcubed": "dev-rc-3",
+    "qcubed/qcubed": "dev-master",
     "qcubed/composer": "dev-master"
   },
   "minimum-stability":"dev"
