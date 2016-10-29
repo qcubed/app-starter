@@ -2,7 +2,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/qcubed/framework"
+      "url": "https://github.com/qcubed/qcubed"
     },
     {
       "type": "vcs",
@@ -17,12 +17,12 @@
   "type": "project",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/qcubed/framework/issues?state=open",
-    "source": "https://github.com/qcubed/framework"
+    "issues": "https://github.com/qcubed/qcubed/issues?state=open",
+    "source": "https://github.com/qcubed/qcubed"
   },
   "require": {
     "php": ">=5.4.0",
-    "qcubed/framework": "dev-rc-3",
+    "qcubed/qcubed": "dev-rc-3",
     "qcubed/composer": "dev-master"
   },
   "minimum-stability":"dev"
