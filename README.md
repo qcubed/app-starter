@@ -29,7 +29,7 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 Once installed, you can install this app-starter project by executing the following at the command line:
 
 ~~~
-php composer.phar create-project qcubed/app-starter your_dir_name
+php composer.phar create-project --stability=dev qcubed/app-starter your_dir_name dev-qcubed4
 ~~~
 
 Substitute whatever directory name you would like for "your_dir_name" above. 
@@ -38,7 +38,7 @@ Note that if you have taken the step to rename "composer.phar" to "composer" and
 just enter:
 
 ~~~
-composer create-project --stability=dev qcubed/app-starter your_dir_name dev-v4
+composer create-project --stability=dev qcubed/app-starter your_dir_name dev-qcubed4
 ~~~
 
 ------------

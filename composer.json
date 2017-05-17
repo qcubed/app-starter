@@ -19,7 +19,12 @@
     {
       "type": "vcs",
       "url": "https://github.com/qcubed/application"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/qcubed/composer"
     }
+
   ],
 
   "name": "qcubed/app-starter",
@@ -34,7 +39,7 @@
   },
   "require": {
     "php": ">=5.5.0",
-    "qcubed/composer": "dev-v4",
+    "qcubed/composer": "dev-qcubed4",
     "qcubed/common": "dev-master",
     "qcubed/application": "dev-master",
     "qcubed/orm": "dev-master",
@@ -43,5 +48,6 @@
   },
   "suggest": {
     "qcubed/bootstrap": "dev-master"
-  }
+  },
+  "minimum-stability": "dev"
 }
