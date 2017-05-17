@@ -23,8 +23,11 @@
     {
       "type": "vcs",
       "url": "https://github.com/qcubed/composer"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/qcubed/bootstrap"
     }
-
   ],
 
   "name": "qcubed/app-starter",
@@ -44,7 +47,11 @@
     "qcubed/application": "dev-master",
     "qcubed/orm": "dev-master",
     "qcubed/i18n": "dev-master",
-    "qcubed/cache": "dev-master"
+    "qcubed/cache": "dev-master",
+    "qcubed/app-starter": "dev-qcubed4"
+  },
+  "require-dev" : {
+    "phpunit/phpunit": "4.8.*"
   },
   "suggest": {
     "qcubed/bootstrap": "dev-master"
