@@ -1,6 +1,9 @@
-# QCubed Application Starter
+# QCubed Application Starter v4 Alpha
 This is the application starter project that sets up your environment using composer. 
 
+Since we are in alpha on this, the installation directions below are slightly different
+than they will be on release. The directions below will help you install the v4 alpha
+version.
 
 REQUIREMENTS
 ------------
@@ -35,7 +38,7 @@ Note that if you have taken the step to rename "composer.phar" to "composer" and
 just enter:
 
 ~~~
-composer create-project qcubed/app-starter your_dir_name
+composer create-project --stability=dev qcubed/app-starter your_dir_name dev-v4
 ~~~
 
 ------------

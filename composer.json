@@ -6,12 +6,19 @@
   "type": "project",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/qcubed/qcubed/issues?state=open",
-    "source": "https://github.com/qcubed/qcubed"
+    "issues": "https://github.com/qcubed/application/issues?state=open",
+    "source": "https://github.com/qcubed/application"
   },
   "require": {
-    "php": ">=5.4.0",
-    "qcubed/qcubed": "^3.0.5",
-    "qcubed/composer": "^1.0.5"
+    "php": ">=5.5.0",
+    "qcubed/composer": "dev-v4",
+    "qcubed/common": "dev-master",
+    "qcubed/application": "dev-master",
+    "qcubed/orm": "dev-master",
+    "qcubed/i18n": "dev-master",
+    "qcubed/cache": "dev-master"
+  },
+  "suggest": {
+    "qcubed/bootstrap": "dev-master"
   }
 }
