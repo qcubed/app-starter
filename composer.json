@@ -1,35 +1,4 @@
 {
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/common"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/i18n"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/orm"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/cache"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/application"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/composer"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/qcubed/bootstrap"
-    }
-  ],
-
   "name": "qcubed/app-starter",
   "description": "QCubed application starter template",
   "keywords": ["qcubed", "framework", "project template"],
