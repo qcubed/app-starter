@@ -10,7 +10,7 @@ REQUIREMENTS
 
 You must have a web server, like apache or nginx, installed and working on your computer.
 
-You must have PHP version 5.4.0 or greater installed and working.
+You must have PHP version 5.5.0 or greater installed and working.
 
 You must have some kind of SQL database. MySQL, PostreSQL, and many others are supported.
 
